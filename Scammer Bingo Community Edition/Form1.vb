@@ -24,6 +24,8 @@ Public Class Form1
     End Sub
 
     Private Sub MaterialRaisedButton20_Click(sender As Object, e As EventArgs) Handles MaterialRaisedButton20.Click
+        My.Settings.op10 = True
+
         MaterialRaisedButton1.Visible = False
         MaterialRaisedButton2.Visible = False
         MaterialRaisedButton3.Visible = False
@@ -50,6 +52,7 @@ Public Class Form1
     End Sub
 
     Private Sub MaterialRaisedButton19_Click(sender As Object, e As EventArgs) Handles MaterialRaisedButton19.Click
+        My.Settings.op10 = False
         MaterialRaisedButton1.Visible = True
         MaterialRaisedButton2.Visible = True
         MaterialRaisedButton3.Visible = True
@@ -199,33 +202,38 @@ Public Class Form1
     End Sub
 
     Private Sub MaterialFlatButton1_Click(sender As Object, e As EventArgs) Handles MaterialFlatButton1.Click
-        MaterialRaisedButton1.Visible = True
-        MaterialRaisedButton2.Visible = True
-        MaterialRaisedButton3.Visible = True
-        MaterialRaisedButton4.Visible = True
-        MaterialRaisedButton5.Visible = True
-        MaterialRaisedButton6.Visible = True
-        MaterialRaisedButton7.Visible = True
-        MaterialRaisedButton8.Visible = True
-        MaterialRaisedButton9.Visible = True
-        MaterialRaisedButton10.Visible = True
-        MaterialRaisedButton11.Visible = True
-        MaterialRaisedButton12.Visible = True
-        MaterialRaisedButton13.Visible = True
-        MaterialRaisedButton14.Visible = True
-        MaterialRaisedButton15.Visible = True
-        MaterialRaisedButton16.Visible = True
-        MaterialRaisedButton17.Visible = True
-        MaterialRaisedButton18.Visible = True
-        MaterialRaisedButton22.Visible = True
-        MaterialRaisedButton21.Visible = True
-        Label1.Text = "0"
-        MaterialFlatButton1.Text = "score 0/20"
-        NotifyIcon1.BalloonTipTitle = "RESET"
-        NotifyIcon1.BalloonTipText = "game and score has been reset."
-        NotifyIcon1.Visible = True
-        NotifyIcon1.ShowBalloonTip(30000)
+        If My.Settings.op10 = False Then
 
+
+            MaterialRaisedButton1.Visible = True
+            MaterialRaisedButton2.Visible = True
+            MaterialRaisedButton3.Visible = True
+            MaterialRaisedButton4.Visible = True
+            MaterialRaisedButton5.Visible = True
+            MaterialRaisedButton6.Visible = True
+            MaterialRaisedButton7.Visible = True
+            MaterialRaisedButton8.Visible = True
+            MaterialRaisedButton9.Visible = True
+            MaterialRaisedButton10.Visible = True
+            MaterialRaisedButton11.Visible = True
+            MaterialRaisedButton12.Visible = True
+            MaterialRaisedButton13.Visible = True
+            MaterialRaisedButton14.Visible = True
+            MaterialRaisedButton15.Visible = True
+            MaterialRaisedButton16.Visible = True
+            MaterialRaisedButton17.Visible = True
+            MaterialRaisedButton18.Visible = True
+            MaterialRaisedButton22.Visible = True
+            MaterialRaisedButton21.Visible = True
+            Label1.Text = "0"
+            MaterialFlatButton1.Text = "score 0/20"
+            NotifyIcon1.BalloonTipTitle = "RESET"
+            NotifyIcon1.BalloonTipText = "game and score has been reset."
+            NotifyIcon1.Visible = True
+            NotifyIcon1.ShowBalloonTip(30000)
+        Else
+
+        End If
 
 
 

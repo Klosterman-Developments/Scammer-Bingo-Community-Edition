@@ -53,6 +53,8 @@ Partial Class Form1
         Me.MaterialFlatButton1 = New MaterialSkin.Controls.MaterialFlatButton()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
+        Me.MaterialDivider2 = New MaterialSkin.Controls.MaterialDivider()
+        Me.MaterialFlatButton2 = New MaterialSkin.Controls.MaterialFlatButton()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -60,7 +62,7 @@ Partial Class Form1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(13, 72)
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 86)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(173, 129)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -177,7 +179,7 @@ Partial Class Form1
         'MaterialRaisedButton19
         '
         Me.MaterialRaisedButton19.Depth = 0
-        Me.MaterialRaisedButton19.Location = New System.Drawing.Point(13, 207)
+        Me.MaterialRaisedButton19.Location = New System.Drawing.Point(12, 221)
         Me.MaterialRaisedButton19.MouseState = MaterialSkin.MouseState.HOVER
         Me.MaterialRaisedButton19.Name = "MaterialRaisedButton19"
         Me.MaterialRaisedButton19.Primary = True
@@ -189,7 +191,7 @@ Partial Class Form1
         'MaterialRaisedButton20
         '
         Me.MaterialRaisedButton20.Depth = 0
-        Me.MaterialRaisedButton20.Location = New System.Drawing.Point(13, 248)
+        Me.MaterialRaisedButton20.Location = New System.Drawing.Point(12, 262)
         Me.MaterialRaisedButton20.MouseState = MaterialSkin.MouseState.HOVER
         Me.MaterialRaisedButton20.Name = "MaterialRaisedButton20"
         Me.MaterialRaisedButton20.Primary = True
@@ -389,11 +391,39 @@ Partial Class Form1
         Me.NotifyIcon1.Text = "NotifyIcon1"
         Me.NotifyIcon1.Visible = True
         '
+        'MaterialDivider2
+        '
+        Me.MaterialDivider2.BackColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MaterialDivider2.Depth = 0
+        Me.MaterialDivider2.Location = New System.Drawing.Point(669, 72)
+        Me.MaterialDivider2.MouseState = MaterialSkin.MouseState.HOVER
+        Me.MaterialDivider2.Name = "MaterialDivider2"
+        Me.MaterialDivider2.Size = New System.Drawing.Size(1, 420)
+        Me.MaterialDivider2.TabIndex = 42
+        Me.MaterialDivider2.Text = "MaterialDivider2"
+        '
+        'MaterialFlatButton2
+        '
+        Me.MaterialFlatButton2.AutoSize = True
+        Me.MaterialFlatButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.MaterialFlatButton2.Depth = 0
+        Me.MaterialFlatButton2.Location = New System.Drawing.Point(14, 400)
+        Me.MaterialFlatButton2.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
+        Me.MaterialFlatButton2.MouseState = MaterialSkin.MouseState.HOVER
+        Me.MaterialFlatButton2.Name = "MaterialFlatButton2"
+        Me.MaterialFlatButton2.Primary = False
+        Me.MaterialFlatButton2.Size = New System.Drawing.Size(63, 36)
+        Me.MaterialFlatButton2.TabIndex = 43
+        Me.MaterialFlatButton2.Text = "KloDev"
+        Me.MaterialFlatButton2.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(682, 496)
+        Me.Controls.Add(Me.MaterialFlatButton2)
+        Me.Controls.Add(Me.MaterialDivider2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.MaterialFlatButton1)
         Me.Controls.Add(Me.MaterialRaisedButton7)
@@ -458,4 +488,6 @@ Partial Class Form1
     Friend WithEvents MaterialFlatButton1 As MaterialSkin.Controls.MaterialFlatButton
     Friend WithEvents Label1 As Label
     Friend WithEvents NotifyIcon1 As NotifyIcon
+    Friend WithEvents MaterialDivider2 As MaterialSkin.Controls.MaterialDivider
+    Friend WithEvents MaterialFlatButton2 As MaterialSkin.Controls.MaterialFlatButton
 End Class
