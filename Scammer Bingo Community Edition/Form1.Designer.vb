@@ -26,7 +26,6 @@ Partial Class Form1
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.MaterialTabSelector1 = New MaterialSkin.Controls.MaterialTabSelector()
         Me.MaterialRaisedButton1 = New MaterialSkin.Controls.MaterialRaisedButton()
         Me.MaterialRaisedButton2 = New MaterialSkin.Controls.MaterialRaisedButton()
         Me.MaterialRaisedButton3 = New MaterialSkin.Controls.MaterialRaisedButton()
@@ -51,12 +50,10 @@ Partial Class Form1
         Me.MaterialRaisedButton21 = New MaterialSkin.Controls.MaterialRaisedButton()
         Me.MaterialRaisedButton22 = New MaterialSkin.Controls.MaterialRaisedButton()
         Me.MaterialCheckBox1 = New MaterialSkin.Controls.MaterialCheckBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.MaterialFlatButton1 = New MaterialSkin.Controls.MaterialFlatButton()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox1
@@ -69,17 +66,6 @@ Partial Class Form1
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
-        '
-        'MaterialTabSelector1
-        '
-        Me.MaterialTabSelector1.BaseTabControl = Nothing
-        Me.MaterialTabSelector1.Depth = 0
-        Me.MaterialTabSelector1.Location = New System.Drawing.Point(199, 72)
-        Me.MaterialTabSelector1.MouseState = MaterialSkin.MouseState.HOVER
-        Me.MaterialTabSelector1.Name = "MaterialTabSelector1"
-        Me.MaterialTabSelector1.Size = New System.Drawing.Size(474, 420)
-        Me.MaterialTabSelector1.TabIndex = 4
-        Me.MaterialTabSelector1.Text = "MaterialTabSelector1"
         '
         'MaterialRaisedButton1
         '
@@ -372,15 +358,6 @@ Partial Class Form1
         Me.MaterialCheckBox1.Text = "Light Theme    "
         Me.MaterialCheckBox1.UseVisualStyleBackColor = True
         '
-        'PictureBox2
-        '
-        Me.PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(199, 72)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(474, 420)
-        Me.PictureBox2.TabIndex = 39
-        Me.PictureBox2.TabStop = False
-        '
         'MaterialFlatButton1
         '
         Me.MaterialFlatButton1.AutoSize = True
@@ -444,20 +421,16 @@ Partial Class Form1
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.MaterialRaisedButton1)
         Me.Controls.Add(Me.MaterialCheckBox1)
-        Me.Controls.Add(Me.MaterialTabSelector1)
-        Me.Controls.Add(Me.PictureBox2)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Scammer Bingo: Community Edition"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents MaterialTabSelector1 As MaterialSkin.Controls.MaterialTabSelector
     Friend WithEvents MaterialRaisedButton1 As MaterialSkin.Controls.MaterialRaisedButton
     Friend WithEvents MaterialRaisedButton2 As MaterialSkin.Controls.MaterialRaisedButton
     Friend WithEvents MaterialRaisedButton3 As MaterialSkin.Controls.MaterialRaisedButton
@@ -482,7 +455,6 @@ Partial Class Form1
     Friend WithEvents MaterialRaisedButton21 As MaterialSkin.Controls.MaterialRaisedButton
     Friend WithEvents MaterialRaisedButton22 As MaterialSkin.Controls.MaterialRaisedButton
     Friend WithEvents MaterialCheckBox1 As MaterialSkin.Controls.MaterialCheckBox
-    Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents MaterialFlatButton1 As MaterialSkin.Controls.MaterialFlatButton
     Friend WithEvents Label1 As Label
     Friend WithEvents NotifyIcon1 As NotifyIcon

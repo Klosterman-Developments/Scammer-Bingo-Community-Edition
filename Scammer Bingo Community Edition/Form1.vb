@@ -12,29 +12,66 @@ Public Class Form1
         SkinManager.AddFormToManage(Me)
         SkinManager.ColorScheme = New ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE)
         SkinManager.Theme = MaterialSkin.MaterialSkinManager.Themes.DARK
-        MaterialTabSelector1.SendToBack()
+
         MaterialCheckBox1.Visible = False
-        PictureBox2.Visible = False
+
         MaterialFlatButton1.Text = "score 0/20"
 
     End Sub
 
-    Private Sub MaterialTabSelector1_Click(sender As Object, e As EventArgs) Handles MaterialTabSelector1.Click
+    Private Sub MaterialTabSelector1_Click(sender As Object, e As EventArgs)
 
     End Sub
 
     Private Sub MaterialRaisedButton20_Click(sender As Object, e As EventArgs) Handles MaterialRaisedButton20.Click
-        PictureBox2.BringToFront()
-        PictureBox2.Visible = True
+        MaterialRaisedButton1.Visible = False
+        MaterialRaisedButton2.Visible = False
+        MaterialRaisedButton3.Visible = False
+        MaterialRaisedButton4.Visible = False
+        MaterialRaisedButton5.Visible = False
+        MaterialRaisedButton6.Visible = False
+        MaterialRaisedButton7.Visible = False
+        MaterialRaisedButton8.Visible = False
+        MaterialRaisedButton9.Visible = False
+        MaterialRaisedButton10.Visible = False
+        MaterialRaisedButton11.Visible = False
+        MaterialRaisedButton12.Visible = False
+        MaterialRaisedButton13.Visible = False
+        MaterialRaisedButton14.Visible = False
+        MaterialRaisedButton15.Visible = False
+        MaterialRaisedButton16.Visible = False
+        MaterialRaisedButton17.Visible = False
+        MaterialRaisedButton18.Visible = False
+        MaterialRaisedButton22.Visible = False
+        MaterialRaisedButton21.Visible = False
         MaterialCheckBox1.BringToFront()
         MaterialCheckBox1.Visible = True
 
     End Sub
 
     Private Sub MaterialRaisedButton19_Click(sender As Object, e As EventArgs) Handles MaterialRaisedButton19.Click
-        MaterialTabSelector1.SendToBack()
+        MaterialRaisedButton1.Visible = True
+        MaterialRaisedButton2.Visible = True
+        MaterialRaisedButton3.Visible = True
+        MaterialRaisedButton4.Visible = True
+        MaterialRaisedButton5.Visible = True
+        MaterialRaisedButton6.Visible = True
+        MaterialRaisedButton7.Visible = True
+        MaterialRaisedButton8.Visible = True
+        MaterialRaisedButton9.Visible = True
+        MaterialRaisedButton10.Visible = True
+        MaterialRaisedButton11.Visible = True
+        MaterialRaisedButton12.Visible = True
+        MaterialRaisedButton13.Visible = True
+        MaterialRaisedButton14.Visible = True
+        MaterialRaisedButton15.Visible = True
+        MaterialRaisedButton16.Visible = True
+        MaterialRaisedButton17.Visible = True
+        MaterialRaisedButton18.Visible = True
+        MaterialRaisedButton22.Visible = True
+        MaterialRaisedButton21.Visible = True
         MaterialCheckBox1.Visible = False
-        PictureBox2.Visible = False
+
 
     End Sub
 
