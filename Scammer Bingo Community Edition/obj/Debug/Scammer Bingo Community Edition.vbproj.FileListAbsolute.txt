@@ -1,0 +1,12 @@
+C:\Users\Noah\Documents\Anti Scammer\Scammer Bingo Community Edition\Scammer Bingo Community Edition\bin\Debug\Scammer Bingo Community Edition.exe.config
+C:\Users\Noah\Documents\Anti Scammer\Scammer Bingo Community Edition\Scammer Bingo Community Edition\bin\Debug\Scammer Bingo Community Edition.exe
+C:\Users\Noah\Documents\Anti Scammer\Scammer Bingo Community Edition\Scammer Bingo Community Edition\bin\Debug\Scammer Bingo Community Edition.pdb
+C:\Users\Noah\Documents\Anti Scammer\Scammer Bingo Community Edition\Scammer Bingo Community Edition\bin\Debug\Scammer Bingo Community Edition.xml
+C:\Users\Noah\Documents\Anti Scammer\Scammer Bingo Community Edition\Scammer Bingo Community Edition\bin\Debug\MaterialSkin.dll
+C:\Users\Noah\Documents\Anti Scammer\Scammer Bingo Community Edition\Scammer Bingo Community Edition\obj\Debug\Scammer Bingo Community Edition.vbprojResolveAssemblyReference.cache
+C:\Users\Noah\Documents\Anti Scammer\Scammer Bingo Community Edition\Scammer Bingo Community Edition\obj\Debug\Scammer_Bingo_Community_Edition.Form1.resources
+C:\Users\Noah\Documents\Anti Scammer\Scammer Bingo Community Edition\Scammer Bingo Community Edition\obj\Debug\Scammer_Bingo_Community_Edition.Resources.resources
+C:\Users\Noah\Documents\Anti Scammer\Scammer Bingo Community Edition\Scammer Bingo Community Edition\obj\Debug\Scammer Bingo Community Edition.vbproj.GenerateResource.Cache
+C:\Users\Noah\Documents\Anti Scammer\Scammer Bingo Community Edition\Scammer Bingo Community Edition\obj\Debug\Scammer Bingo Community Edition.exe
+C:\Users\Noah\Documents\Anti Scammer\Scammer Bingo Community Edition\Scammer Bingo Community Edition\obj\Debug\Scammer Bingo Community Edition.xml
+C:\Users\Noah\Documents\Anti Scammer\Scammer Bingo Community Edition\Scammer Bingo Community Edition\obj\Debug\Scammer Bingo Community Edition.pdb
