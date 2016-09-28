@@ -9,4 +9,5 @@ Because scammers scam. We are motivated to stop phone scammer, and why not havin
 
 ### Installation
 
-```Scammer-Bingo-Community-Edition/Scammer Bingo Community Edition/bin/Debug/Scammer Bingo Community Edition.exe```  run that file
+```Scammer-Bingo-Community-Edition/Scammer Bingo Community Edition/bin/Debug/Scammer Bingo Community Edition.exe```  
+Run that file
