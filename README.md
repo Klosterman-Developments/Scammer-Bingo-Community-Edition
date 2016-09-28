@@ -5,10 +5,8 @@ Scammer Bingo: Community-Edition is a community driven program to help scambaite
 
 ## Motivation
 
-Because **WE** hate scammers, and this a fun way to waste there time!
+Because scammers scam. We are motivated to stop phone scammer, and why not having fun while doing it.
 
-## Installation
+### Installation
 
-Scammer-Bingo-Community-Edition/Scammer Bingo Community Edition/bin/Debug/Scammer Bingo Community Edition.exe (run that file)
-
-
+```Scammer-Bingo-Community-Edition/Scammer Bingo Community Edition/bin/Debug/Scammer Bingo Community Edition.exe```  run that file
