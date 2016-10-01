@@ -55,6 +55,7 @@ Partial Class Form1
         Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
         Me.MaterialDivider2 = New MaterialSkin.Controls.MaterialDivider()
         Me.MaterialFlatButton2 = New MaterialSkin.Controls.MaterialFlatButton()
+        Me.MaterialDivider3 = New MaterialSkin.Controls.MaterialDivider()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -417,6 +418,17 @@ Partial Class Form1
         Me.MaterialFlatButton2.Text = "KloDev"
         Me.MaterialFlatButton2.UseVisualStyleBackColor = True
         '
+        'MaterialDivider3
+        '
+        Me.MaterialDivider3.BackColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MaterialDivider3.Depth = 0
+        Me.MaterialDivider3.Location = New System.Drawing.Point(192, 64)
+        Me.MaterialDivider3.MouseState = MaterialSkin.MouseState.HOVER
+        Me.MaterialDivider3.Name = "MaterialDivider3"
+        Me.MaterialDivider3.Size = New System.Drawing.Size(504, 470)
+        Me.MaterialDivider3.TabIndex = 44
+        Me.MaterialDivider3.Text = "MaterialDivider3"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -451,6 +463,7 @@ Partial Class Form1
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.MaterialRaisedButton1)
         Me.Controls.Add(Me.MaterialCheckBox1)
+        Me.Controls.Add(Me.MaterialDivider3)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Scammer Bingo: Community Edition"
@@ -490,4 +503,5 @@ Partial Class Form1
     Friend WithEvents NotifyIcon1 As NotifyIcon
     Friend WithEvents MaterialDivider2 As MaterialSkin.Controls.MaterialDivider
     Friend WithEvents MaterialFlatButton2 As MaterialSkin.Controls.MaterialFlatButton
+    Friend WithEvents MaterialDivider3 As MaterialSkin.Controls.MaterialDivider
 End Class

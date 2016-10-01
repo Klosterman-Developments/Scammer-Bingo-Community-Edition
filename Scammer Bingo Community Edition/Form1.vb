@@ -16,43 +16,6 @@ Public Class Form1
         MaterialCheckBox1.Visible = False
 
         MaterialFlatButton1.Text = "score 0/20"
-
-    End Sub
-
-    Private Sub MaterialTabSelector1_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub MaterialRaisedButton20_Click(sender As Object, e As EventArgs) Handles MaterialRaisedButton20.Click
-        My.Settings.op10 = True
-
-        MaterialRaisedButton1.Visible = False
-        MaterialRaisedButton2.Visible = False
-        MaterialRaisedButton3.Visible = False
-        MaterialRaisedButton4.Visible = False
-        MaterialRaisedButton5.Visible = False
-        MaterialRaisedButton6.Visible = False
-        MaterialRaisedButton7.Visible = False
-        MaterialRaisedButton8.Visible = False
-        MaterialRaisedButton9.Visible = False
-        MaterialRaisedButton10.Visible = False
-        MaterialRaisedButton11.Visible = False
-        MaterialRaisedButton12.Visible = False
-        MaterialRaisedButton13.Visible = False
-        MaterialRaisedButton14.Visible = False
-        MaterialRaisedButton15.Visible = False
-        MaterialRaisedButton16.Visible = False
-        MaterialRaisedButton17.Visible = False
-        MaterialRaisedButton18.Visible = False
-        MaterialRaisedButton22.Visible = False
-        MaterialRaisedButton21.Visible = False
-        MaterialCheckBox1.BringToFront()
-        MaterialCheckBox1.Visible = True
-
-    End Sub
-
-    Private Sub MaterialRaisedButton19_Click(sender As Object, e As EventArgs) Handles MaterialRaisedButton19.Click
-        My.Settings.op10 = False
         MaterialRaisedButton1.Visible = True
         MaterialRaisedButton2.Visible = True
         MaterialRaisedButton3.Visible = True
@@ -73,7 +36,31 @@ Public Class Form1
         MaterialRaisedButton18.Visible = True
         MaterialRaisedButton22.Visible = True
         MaterialRaisedButton21.Visible = True
+        MaterialDivider3.Visible = False
+
+
+    End Sub
+
+    Private Sub MaterialTabSelector1_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub MaterialRaisedButton20_Click(sender As Object, e As EventArgs) Handles MaterialRaisedButton20.Click
+        MaterialFlatButton1.Enabled = False
+
+
+        MaterialDivider3.Visible = True
+        MaterialDivider3.BringToFront()
+
+        MaterialCheckBox1.BringToFront()
+        MaterialCheckBox1.Visible = True
+
+    End Sub
+
+    Private Sub MaterialRaisedButton19_Click(sender As Object, e As EventArgs) Handles MaterialRaisedButton19.Click
+        MaterialFlatButton1.Enabled = True
         MaterialCheckBox1.Visible = False
+        MaterialDivider3.Visible = False
 
 
     End Sub
@@ -202,10 +189,10 @@ Public Class Form1
     End Sub
 
     Private Sub MaterialFlatButton1_Click(sender As Object, e As EventArgs) Handles MaterialFlatButton1.Click
-        If My.Settings.op10 = False Then
 
 
-            MaterialRaisedButton1.Visible = True
+
+        MaterialRaisedButton1.Visible = True
             MaterialRaisedButton2.Visible = True
             MaterialRaisedButton3.Visible = True
             MaterialRaisedButton4.Visible = True
@@ -231,9 +218,6 @@ Public Class Form1
             NotifyIcon1.BalloonTipText = "game and score has been reset."
             NotifyIcon1.Visible = True
             NotifyIcon1.ShowBalloonTip(30000)
-        Else
-
-        End If
 
 
 
